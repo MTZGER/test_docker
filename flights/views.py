@@ -5,6 +5,7 @@ from django.urls import reverse
 
 from .models import Flight, Passenger
 
+# change
 # Create your views here.
 def index(request):
     return render(request, "flights/index.html", {
